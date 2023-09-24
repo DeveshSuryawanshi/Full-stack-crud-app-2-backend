@@ -22,7 +22,7 @@ app.get("/", async(req, res) =>{
 })
 
 
-app.listen(PORT, async()=>{
+app.listen(8080, async()=>{
     try {
         await connection;
         console.log("Connected to the DataBase");
